@@ -19,7 +19,7 @@ repository-code: "https://github.com/ultralytics/yolo11"
 url: "https://docs.ultralytics.com/models/yolo11"
 license: AGPL-3.0-only
 version: 8.3.0
-date-released: "2024-09-10"
+date-released: "2024-09-29"
 preferred-citation:
   type: software
   title: "Ultralytics YOLO11"
