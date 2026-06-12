@@ -16,9 +16,9 @@ authors:
     affiliation: Ultralytics
     orcid: "https://orcid.org/0000-0003-3783-7069"
 repository-code: "https://github.com/ultralytics/ultralytics"
-url: "https://docs.ultralytics.com/models/yolo11/"
+url: "https://docs.ultralytics.com/models/yolo11"
 license: AGPL-3.0
-version: 11.0.0
+version: 8.3.0
 date-released: "2024-09-10"
 preferred-citation:
   type: software
@@ -33,7 +33,7 @@ preferred-citation:
       affiliation: Ultralytics
       orcid: "https://orcid.org/0000-0003-3783-7069"
   repository-code: "https://github.com/ultralytics/ultralytics"
-  url: "https://docs.ultralytics.com/models/yolo11/"
+  url: "https://docs.ultralytics.com/models/yolo11"
   license: AGPL-3.0
-  version: 11.0.0
+  version: 8.3.0
   year: 2024

@@ -20,7 +20,7 @@
 </div>
 <br>
 
-[Ultralytics](https://www.ultralytics.com/) [YOLO11](https://docs.ultralytics.com/zh/models/yolo11/) 可通过官方
+[Ultralytics](https://www.ultralytics.com/) [YOLO11](https://docs.ultralytics.com/zh/models/yolo11) 可通过官方
 [Ultralytics YOLO](https://github.com/ultralytics/ultralytics) 包使用，支持目标检测、实例分割、图像分类、姿态估计、旋转目标检测和跟踪，并提供快速、准确、易用的 Python 与 CLI 工作流。
 
 本仓库是 YOLO11 的轻量级发现入口。官方实现、软件包发布、模型下载、Issues 和 Pull Requests 均在
@@ -29,10 +29,17 @@
 ## 📄 文档
 
 请参阅下文了解快速安装和 YOLO11 使用示例。有关训练、验证、预测和部署的完整指南，请参阅
-[Ultralytics 文档](https://docs.ultralytics.com/zh/)。
+[Ultralytics 文档](https://docs.ultralytics.com/zh)。
 
 <details open>
 <summary>安装</summary>
+
+在 [Python>=3.8](https://www.python.org/) 环境中安装 `ultralytics` 包，并使用
+[PyTorch](https://pytorch.org/get-started/locally/)。
+
+[![PyPI - Version](https://img.shields.io/pypi/v/ultralytics?logo=pypi&logoColor=white)](https://pypi.org/project/ultralytics/)
+[![Ultralytics Downloads](https://static.pepy.tech/badge/ultralytics)](https://clickpy.clickhouse.com/dashboard/ultralytics)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ultralytics?logo=python&logoColor=gold)](https://pypi.org/project/ultralytics/)
 
 ```bash
 pip install ultralytics
@@ -69,17 +76,22 @@ YOLO11 模型支持检测、分割、分类、姿态估计和旋转目标检测�
     <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/docs/ultralytics-yolov8-tasks-banner.avif" alt="Ultralytics YOLO supported tasks">
 </a>
 
-| 模型系列    | 示例权重                                                                                  | 任务         | Train | Val | Predict | Export |
-| ----------- | ----------------------------------------------------------------------------------------- | ------------ | ----- | --- | ------- | ------ |
-| YOLO11      | `yolo11n.pt` `yolo11s.pt` `yolo11m.pt` `yolo11l.pt` `yolo11x.pt`                          | 检测         | ✅    | ✅  | ✅      | ✅     |
-| YOLO11-seg  | `yolo11n-seg.pt` `yolo11s-seg.pt` `yolo11m-seg.pt` `yolo11l-seg.pt` `yolo11x-seg.pt`      | 实例分割     | ✅    | ✅  | ✅      | ✅     |
-| YOLO11-cls  | `yolo11n-cls.pt` `yolo11s-cls.pt` `yolo11m-cls.pt` `yolo11l-cls.pt` `yolo11x-cls.pt`      | 分类         | ✅    | ✅  | ✅      | ✅     |
-| YOLO11-pose | `yolo11n-pose.pt` `yolo11s-pose.pt` `yolo11m-pose.pt` `yolo11l-pose.pt` `yolo11x-pose.pt` | 姿态估计     | ✅    | ✅  | ✅      | ✅     |
-| YOLO11-obb  | `yolo11n-obb.pt` `yolo11s-obb.pt` `yolo11m-obb.pt` `yolo11l-obb.pt` `yolo11x-obb.pt`      | 旋转目标检测 | ✅    | ✅  | ✅      | ✅     |
+| 模型系列 | 示例权重 | 任务 | Train | Val | Predict | Export |
+| --- | --- | --- | --- | --- | --- | --- |
+| [YOLO11](https://platform.ultralytics.com/ultralytics/yolo11) | `yolo11n.pt` `yolo11s.pt` `yolo11m.pt` `yolo11l.pt` `yolo11x.pt` | [检测](https://docs.ultralytics.com/zh/tasks/detect) | ✅ | ✅ | ✅ | ✅ |
+| [YOLO11-seg](https://platform.ultralytics.com/ultralytics/yolo11) | `yolo11n-seg.pt` `yolo11s-seg.pt` `yolo11m-seg.pt` `yolo11l-seg.pt` `yolo11x-seg.pt` | [实例分割](https://docs.ultralytics.com/zh/tasks/segment) | ✅ | ✅ | ✅ | ✅ |
+| [YOLO11-cls](https://platform.ultralytics.com/ultralytics/yolo11) | `yolo11n-cls.pt` `yolo11s-cls.pt` `yolo11m-cls.pt` `yolo11l-cls.pt` `yolo11x-cls.pt` | [分类](https://docs.ultralytics.com/zh/tasks/classify) | ✅ | ✅ | ✅ | ✅ |
+| [YOLO11-pose](https://platform.ultralytics.com/ultralytics/yolo11) | `yolo11n-pose.pt` `yolo11s-pose.pt` `yolo11m-pose.pt` `yolo11l-pose.pt` `yolo11x-pose.pt` | [姿态估计](https://docs.ultralytics.com/zh/tasks/pose) | ✅ | ✅ | ✅ | ✅ |
+| [YOLO11-obb](https://platform.ultralytics.com/ultralytics/yolo11) | `yolo11n-obb.pt` `yolo11s-obb.pt` `yolo11m-obb.pt` `yolo11l-obb.pt` `yolo11x-obb.pt` | [旋转目标检测](https://docs.ultralytics.com/zh/tasks/obb) | ✅ | ✅ | ✅ | ✅ |
 
 ## 🧩 集成
 
-Ultralytics 与领先 AI 平台的集成扩展了数据集标注、训练、可视化、部署和模型管理工作流。了解 [Ultralytics 集成](https://docs.ultralytics.com/integrations)。
+Ultralytics 集成扩展了数据集标注、训练、可视化、部署和模型管理工作流。了解
+[Ultralytics Platform](https://platform.ultralytics.com) 和
+[Ultralytics 集成文档](https://docs.ultralytics.com/integrations)，将 YOLO11 连接到您的 AI 工作流，包括常用导出格式
+[TensorRT](https://docs.ultralytics.com/integrations/tensorrt)、[ONNX](https://docs.ultralytics.com/integrations/onnx)、
+[CoreML](https://docs.ultralytics.com/integrations/coreml) 和
+[TFLite](https://docs.ultralytics.com/integrations/tflite)。
 
 <a href="https://platform.ultralytics.com" target="_blank">
     <img width="100%" src="https://github.com/ultralytics/assets/raw/main/yolov8/banner-integrations.png" alt="Ultralytics active learning integrations">
@@ -99,7 +111,7 @@ Ultralytics 与领先 AI 平台的集成扩展了数据集标注、训练、可�
 
 ## 📞 联系方式
 
-- YOLO11 文档：https://docs.ultralytics.com/zh/models/yolo11/
+- YOLO11 文档：https://docs.ultralytics.com/zh/models/yolo11
 - Ultralytics 包：https://pypi.org/project/ultralytics/
 - 官方源代码：https://github.com/ultralytics/ultralytics
 - 支持与 Issues：https://github.com/ultralytics/ultralytics/issues/new/choose
