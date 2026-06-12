@@ -95,13 +95,13 @@ All model weights download automatically from the latest Ultralytics assets rele
     <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/docs/ultralytics-yolov8-tasks-banner.avif" alt="Ultralytics YOLO supported tasks">
 </a>
 
-| Model Family | Example Weights | Task | Train | Val | Predict | Export |
-| --- | --- | --- | --- | --- | --- | --- |
-| [YOLO11](https://platform.ultralytics.com/ultralytics/yolo11) | `yolo11n.pt` `yolo11s.pt` `yolo11m.pt` `yolo11l.pt` `yolo11x.pt` | [Detection](https://docs.ultralytics.com/tasks/detect) | ✅ | ✅ | ✅ | ✅ |
-| [YOLO11-seg](https://platform.ultralytics.com/ultralytics/yolo11) | `yolo11n-seg.pt` `yolo11s-seg.pt` `yolo11m-seg.pt` `yolo11l-seg.pt` `yolo11x-seg.pt` | [Instance Segmentation](https://docs.ultralytics.com/tasks/segment) | ✅ | ✅ | ✅ | ✅ |
-| [YOLO11-cls](https://platform.ultralytics.com/ultralytics/yolo11) | `yolo11n-cls.pt` `yolo11s-cls.pt` `yolo11m-cls.pt` `yolo11l-cls.pt` `yolo11x-cls.pt` | [Classification](https://docs.ultralytics.com/tasks/classify) | ✅ | ✅ | ✅ | ✅ |
-| [YOLO11-pose](https://platform.ultralytics.com/ultralytics/yolo11) | `yolo11n-pose.pt` `yolo11s-pose.pt` `yolo11m-pose.pt` `yolo11l-pose.pt` `yolo11x-pose.pt` | [Pose Estimation](https://docs.ultralytics.com/tasks/pose) | ✅ | ✅ | ✅ | ✅ |
-| [YOLO11-obb](https://platform.ultralytics.com/ultralytics/yolo11) | `yolo11n-obb.pt` `yolo11s-obb.pt` `yolo11m-obb.pt` `yolo11l-obb.pt` `yolo11x-obb.pt` | [Oriented Detection](https://docs.ultralytics.com/tasks/obb) | ✅ | ✅ | ✅ | ✅ |
+| Model Family                                                       | Example Weights                                                                           | Task                                                                | Train | Val | Predict | Export |
+| ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ----- | --- | ------- | ------ |
+| [YOLO11](https://platform.ultralytics.com/ultralytics/yolo11)      | `yolo11n.pt` `yolo11s.pt` `yolo11m.pt` `yolo11l.pt` `yolo11x.pt`                          | [Detection](https://docs.ultralytics.com/tasks/detect)              | ✅    | ✅  | ✅      | ✅     |
+| [YOLO11-seg](https://platform.ultralytics.com/ultralytics/yolo11)  | `yolo11n-seg.pt` `yolo11s-seg.pt` `yolo11m-seg.pt` `yolo11l-seg.pt` `yolo11x-seg.pt`      | [Instance Segmentation](https://docs.ultralytics.com/tasks/segment) | ✅    | ✅  | ✅      | ✅     |
+| [YOLO11-cls](https://platform.ultralytics.com/ultralytics/yolo11)  | `yolo11n-cls.pt` `yolo11s-cls.pt` `yolo11m-cls.pt` `yolo11l-cls.pt` `yolo11x-cls.pt`      | [Classification](https://docs.ultralytics.com/tasks/classify)       | ✅    | ✅  | ✅      | ✅     |
+| [YOLO11-pose](https://platform.ultralytics.com/ultralytics/yolo11) | `yolo11n-pose.pt` `yolo11s-pose.pt` `yolo11m-pose.pt` `yolo11l-pose.pt` `yolo11x-pose.pt` | [Pose Estimation](https://docs.ultralytics.com/tasks/pose)          | ✅    | ✅  | ✅      | ✅     |
+| [YOLO11-obb](https://platform.ultralytics.com/ultralytics/yolo11)  | `yolo11n-obb.pt` `yolo11s-obb.pt` `yolo11m-obb.pt` `yolo11l-obb.pt` `yolo11x-obb.pt`      | [Oriented Detection](https://docs.ultralytics.com/tasks/obb)        | ✅    | ✅  | ✅      | ✅     |
 
 ## 🧩 Integrations
 
