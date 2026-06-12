@@ -95,13 +95,13 @@ All model weights download automatically from the latest Ultralytics assets rele
     <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/docs/ultralytics-yolov8-tasks-banner.avif" alt="Ultralytics YOLO supported tasks">
 </a>
 
-| Model Family | Example Weights | Task | Train | Val | Predict | Export |
-| --- | --- | --- | --- | --- | --- | --- |
-| YOLO11 | `yolo11n.pt` `yolo11s.pt` `yolo11m.pt` `yolo11l.pt` `yolo11x.pt` | Detection | ✅ | ✅ | ✅ | ✅ |
-| YOLO11-seg | `yolo11n-seg.pt` `yolo11s-seg.pt` `yolo11m-seg.pt` `yolo11l-seg.pt` `yolo11x-seg.pt` | Instance Segmentation | ✅ | ✅ | ✅ | ✅ |
-| YOLO11-cls | `yolo11n-cls.pt` `yolo11s-cls.pt` `yolo11m-cls.pt` `yolo11l-cls.pt` `yolo11x-cls.pt` | Classification | ✅ | ✅ | ✅ | ✅ |
-| YOLO11-pose | `yolo11n-pose.pt` `yolo11s-pose.pt` `yolo11m-pose.pt` `yolo11l-pose.pt` `yolo11x-pose.pt` | Pose Estimation | ✅ | ✅ | ✅ | ✅ |
-| YOLO11-obb | `yolo11n-obb.pt` `yolo11s-obb.pt` `yolo11m-obb.pt` `yolo11l-obb.pt` `yolo11x-obb.pt` | Oriented Detection | ✅ | ✅ | ✅ | ✅ |
+| Model Family | Example Weights                                                                           | Task                  | Train | Val | Predict | Export |
+| ------------ | ----------------------------------------------------------------------------------------- | --------------------- | ----- | --- | ------- | ------ |
+| YOLO11       | `yolo11n.pt` `yolo11s.pt` `yolo11m.pt` `yolo11l.pt` `yolo11x.pt`                          | Detection             | ✅    | ✅  | ✅      | ✅     |
+| YOLO11-seg   | `yolo11n-seg.pt` `yolo11s-seg.pt` `yolo11m-seg.pt` `yolo11l-seg.pt` `yolo11x-seg.pt`      | Instance Segmentation | ✅    | ✅  | ✅      | ✅     |
+| YOLO11-cls   | `yolo11n-cls.pt` `yolo11s-cls.pt` `yolo11m-cls.pt` `yolo11l-cls.pt` `yolo11x-cls.pt`      | Classification        | ✅    | ✅  | ✅      | ✅     |
+| YOLO11-pose  | `yolo11n-pose.pt` `yolo11s-pose.pt` `yolo11m-pose.pt` `yolo11l-pose.pt` `yolo11x-pose.pt` | Pose Estimation       | ✅    | ✅  | ✅      | ✅     |
+| YOLO11-obb   | `yolo11n-obb.pt` `yolo11s-obb.pt` `yolo11m-obb.pt` `yolo11l-obb.pt` `yolo11x-obb.pt`      | Oriented Detection    | ✅    | ✅  | ✅      | ✅     |
 
 ## 🧩 Integrations
 
